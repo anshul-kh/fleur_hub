@@ -48,7 +48,7 @@ const Roms: React.FC = () => {
 
         <Input
           variant="bordered"
-          className="w-2/6 text-white "
+          className="md:w-2/6 w-3/4 text-white "
           placeholder="Search Your Favourite Rom"
         />
 
@@ -70,7 +70,7 @@ const Roms: React.FC = () => {
             })}
 
           {loading && (
-            <h1 className="text-2xl bg-gradient-to-b from-white to-transparent bg-clip-text text-transparent">
+            <h1 className="md:text-2xl bg-gradient-to-b from-white to-transparent bg-clip-text text-transparent">
               Loading (Wait a sec)...
             </h1>
           )}
