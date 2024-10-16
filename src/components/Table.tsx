@@ -1,12 +1,5 @@
-import React, { useEffect } from "react";
-import {
-  Table,
-  TableHeader,
-  TableColumn,
-  TableBody,
-  RadioGroup,
-  Radio,
-} from "@nextui-org/react";
+import React from "react";
+
 
 export default function TableWarpper({
   children,

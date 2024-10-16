@@ -15,7 +15,7 @@ type BuildProps = {
 type DataProps = {
   android_version: number;
   build: BuildProps[];
-  description: string;
+  discription: string;
   id: number;
   name: string;
   tested: boolean;

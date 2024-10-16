@@ -1,17 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Nav, Footer, Card } from "../components";
+import { Nav,  Card } from "../components";
 import { fetchRoms, romImages } from "../utils";
 import toast from "react-hot-toast";
 import { Input } from "@nextui-org/react";
 
-interface romsProps {
-  id: number;
-  name: string;
-  tested: boolean;
-  build: any;
-  android_version: number;
-  discription: string;
-}
+
 
 const Roms: React.FC = () => {
   const [loading, setloading] = useState(false);
